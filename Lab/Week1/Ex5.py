@@ -19,7 +19,7 @@ def palindrome (n):
     if rev == tes :
         #print(tes)
         palin.append(tes)
-        # print(i,"*",j,tes)
+        print(i,"*",j,tes)
 
 
 i,j = 1000,1000
@@ -31,8 +31,8 @@ while i>=100:
         j-=1
     i -= 1
     j = 1000
-    
-print(palin)
-palin.sort()
-print(palin)
-print(palin[-1])
+
+# print(palin)
+# palin.sort()
+# print(palin)
+# print(palin[-1])
